@@ -1,0 +1,24 @@
+{
+  "name": "react-api-client",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "api",
+    "client"
+  ],
+  "author": "Timothy Li",
+  "license": "Apache-2.0",
+  "description": "A simple API client for React",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "axios": "^1.7.7",
+    "typescript": "^5.5.4"
+  },
+  "types": "lib/index.d.ts"
+}
