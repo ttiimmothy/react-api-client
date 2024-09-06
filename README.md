@@ -1,4 +1,6 @@
-# React Api Client
+# React Api Clients
+
+[![npm version](https://img.shields.io/npm/v/react-api-clients.svg)](https://www.npmjs.com/package/react-api-clients)
 
 A npm package for calling APIs in React.
 
@@ -27,17 +29,17 @@ npm publish
 ## For using the package
 
 ```bash
-npm install react-api-client
+npm install react-api-clients
 ```
 
 ## Usage
 
 ```ts
-import { callApi } from "react-api-client";
+import { callApi } from "react-api-clients";
 
 const data = await callApi("https://jsonplaceholder.typicode.com/todos/1");
 ```
 
 ## License
 
-React Api Client is licensed under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for more details.
+React Api Clients is licensed under the Apache License, Version 2.0. See the [LICENSE](./LICENSE) file for more details.
