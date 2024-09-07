@@ -38,6 +38,20 @@ pnpm add react-api-clients
 bun add react-api-clients
 ```
 
+### Installation
+
+You can install this package from GitHub Packages
+
+```bash
+npm install @ttiimmothy/react-api-clients
+# or
+yarn add @ttiimmothy/react-api-clients
+# or
+pnpm add @ttiimmothy/react-api-clients
+# or
+bun add @ttiimmothy/react-api-clients
+```
+
 ## Usage
 
 ```ts
