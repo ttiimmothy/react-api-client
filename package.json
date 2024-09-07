@@ -14,7 +14,10 @@
     "api",
     "client"
   ],
-  "author": "Timothy Li",
+  "author": {
+    "name": "Timothy Li",
+    "email": "timothyemail805@gmail.com"
+  },
   "license": "Apache-2.0",
   "description": "A simple API client for React",
   "repository": {
@@ -30,5 +33,11 @@
     "axios": "^1.7.7",
     "typescript": "^5.5.4"
   },
-  "types": "lib/index.d.ts"
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "engines": {
+    "node": ">=12"
+  }
 }
