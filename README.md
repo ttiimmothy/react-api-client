@@ -30,6 +30,12 @@ npm publish
 
 ```bash
 npm install react-api-clients
+# or
+yarn add react-api-clients
+# or
+pnpm add react-api-clients
+# or
+bun add react-api-clients
 ```
 
 ## Usage
