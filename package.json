@@ -1,5 +1,5 @@
 {
-  "name": "react-api-clients",
+  "name": "@ttiimmothy/react-api-clients",
   "version": "0.0.3",
   "main": "lib/index.js",
   "scripts": {
