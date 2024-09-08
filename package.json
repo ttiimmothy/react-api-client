@@ -1,7 +1,14 @@
 {
   "name": "react-api-clients",
   "version": "0.0.5",
+  "description": "A simple API client for React",
+  "types": "lib/index.d.ts",
   "main": "lib/index.js",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Timothy Li",
+    "email": "timothyemail805@gmail.com"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -9,30 +16,23 @@
     "publish-npm": "npm publish",
     "publish-gpr": "npm publish --registry=https://npm.pkg.github.com"
   },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ttiimmothy/react-api-clients.git"
+  },
   "keywords": [
     "react",
     "api",
     "client"
   ],
-  "author": {
-    "name": "Timothy Li",
-    "email": "timothyemail805@gmail.com"
-  },
-  "license": "Apache-2.0",
-  "description": "A simple API client for React",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ttiimmothy/react-api-clients.git"
-  },
   "devDependencies": {
     "@types/node": "^22.5.4",
     "axios": "^1.7.7",
     "typescript": "^5.5.4"
   },
-  "types": "lib/index.d.ts",
-  "files": [
-    "lib"
-  ],
   "engines": {
     "node": ">=12"
   }
