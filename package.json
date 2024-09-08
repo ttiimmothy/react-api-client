@@ -24,10 +24,6 @@
     "type": "git",
     "url": "https://github.com/ttiimmothy/react-api-clients.git"
   },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/",
-    "access": "public"
-  },
   "devDependencies": {
     "@types/node": "^22.5.4",
     "axios": "^1.7.7",
